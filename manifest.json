@@ -1,0 +1,10 @@
+{
+  "name": "Afstand per minuut",
+  "short_name": "Afstand",
+  "lang": "nl",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}
