@@ -131,8 +131,8 @@
       perMin.innerHTML = 'Per minuut: <strong>' + fmt(km, 3) + ' km</strong> (' + Math.round(km * 1000) + ' m)';
       try { localStorage.setItem(KEY, input.value); } catch (e) {}
     }
-    col1.innerHTML = rows(1, 30, speed);
-    col2.innerHTML = rows(31, 60, speed);
+    col1.innerHTML = rows(1, 60, speed);
+    col2.innerHTML = rows(61, 120, speed);
   }
 
   try {

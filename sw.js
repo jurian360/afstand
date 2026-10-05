@@ -1,4 +1,4 @@
-var CACHE = 'afstand-v1';
+var CACHE = 'afstand-v2';
 var FILES = ['./', './index.html', './manifest.json'];
 
 self.addEventListener('install', function (event) {
